@@ -7,7 +7,6 @@ JOIN "Orders" o ON c.id = o."courierId"
 WHERE o."inDelivery" = true
 GROUP BY c.login;
 
----------------------------------------------------------
 Задание 2
 
 SELECT
